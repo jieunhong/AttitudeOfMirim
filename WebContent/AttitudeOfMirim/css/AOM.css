@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	background-color: #F0F0F0;
+	color: #484848;
+	font-family: 'Open Sans Condensed', 'Nanum Gothic';
+}
+
+
+.title{
+	font-size: 30px;
+	display: inline;
+}
+
+td{
+	padding: 5px;
+}
+
+.top{
+	text-align: left;
+}
+
+.fa{
+	font-size: 120pt;
+	color: #909090;
+	margin: 30px;
+}
+
+.fa-user-circle-o{
+	font-size: 20pt;
+	margin: 0 5px;
+	color: #484848;
+}
+
+hr{
+	display: block;
+    margin: 7px 0;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+a{
+	color: #484848;
+	text-decoration:none;
+}
