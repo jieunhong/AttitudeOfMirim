@@ -22,7 +22,7 @@
 <link rel="stylesheet" type="text/css" href="css/AOM_StudentMain.css">
 <link rel="shorcut icon" href="fbgraph.png" type="image/x-icon">
 <%
-String id = (String)session.getAttribute("num");            // request에서 id 파라미터를 가져온다
+String id = session.getAttribute("num").toString();            // request에서 id 파라미터를 가져온다
 
 
 if(id==null||id.equals("")){                            // id가 Null 이거나 없을 경우
